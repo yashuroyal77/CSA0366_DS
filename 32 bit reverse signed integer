@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+	int n=0, num=0, count=0, revbits=0;
+	printf("enter the num :");
+	scanf("%d", &n);
+	while (n>0);
+	{
+		if (n&1==1)
+		{
+			revbits = revbits*1;
+		}
+		n = n>>1;
+	}
+	printf("\n the reversed resultant= %d\n",revbits);
+	return 0;
+}
